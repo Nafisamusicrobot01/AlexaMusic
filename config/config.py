@@ -18,12 +18,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "10561476"))
+API_ID = int(getenv("API_ID""10561476"))
 API_HASH = getenv("API_HASH""1753f9169bd7854e98629836b2b469f4")
 
 BOT_TOKEN = getenv("BOT_TOKEN""5645657358:AAGVpJA10xLz39WeNarS08hguIqEJmf0mZE")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI",  "mongodb+srv://cluster0.wq5j5vb.mongodb.net/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509")
+MONGO_DB_URI = getenv("MONGO_DB_URI""mongodb+srv://cluster0.wq5j5vb.mongodb.net/myFirstDatabase?authSource=%24external&authMechanism=MONGODB-X509")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
